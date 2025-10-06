@@ -14,13 +14,3 @@ build:linux --experimental_convenience_symlinks=ignore
 test:linux --experimental_convenience_symlinks=ignore
 run:linux --experimental_convenience_symlinks=ignore
 
-### Required Typecheck Performance Selection
-# passes an argument `--skipLibCheck` to *every* spawn of tsc
-# Bazel 6.4 or greater: 'common' means 'any command that supports this flag'
-common --@aspect_rules_ts//ts:skipLibCheck=honor_tsconfig
-
-# Between Bazel 6.0 and 6.3, you need all of this, to avoid discarding the analysis cache:
-build --@aspect_rules_ts//ts:skipLibCheck=honor_tsconfig
-fetch --@aspect_rules_ts//ts:skipLibCheck=honor_tsconfig
-query --@aspect_rules_ts//ts:skipLibCheck=honor_tsconfig
-### END Required Typecheck Performance Selection

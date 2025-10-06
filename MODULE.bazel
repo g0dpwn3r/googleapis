@@ -1,0 +1,6 @@
+# --- Google Cloud C++ ---
+bazel_dep(name = "google_cloud_cpp", version = "3.0.0-rc1")
+
+# ADD THIS LINE: Explicitly define the googleapis module
+# Using a compatible recent version (check BCR for latest)
+bazel_dep(name = "googleapis", version = "0.0.0-20250826-a92cee39")
