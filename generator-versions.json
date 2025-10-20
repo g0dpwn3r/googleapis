@@ -5,7 +5,7 @@
     "sha": "c656983db36a16cd42f5c03a03dcfc87fb6049f7c05babf8aca7f77a4492f6dd"
   },
   "go": {
-    "version": "0.53.1",
+    "version": "0.54.0",
     "commit": null,
     "sha": null
   },
@@ -20,9 +20,9 @@
     "sha": null
   },
   "python": {
-    "version": "1.26.2",
+    "version": "1.28.0",
     "commit": null,
-    "sha": "6cc18ef77c47633163ad5c2b6ab88ff0c13a4cc51e02061f5411792ab65aacd1"
+    "sha": "95d47401cc58d463a98513fcd75fae437d6bf6d7ae23d3076a2abbfebf35d0b0"
   },
   "ruby": {
     "version": "0.47.1",

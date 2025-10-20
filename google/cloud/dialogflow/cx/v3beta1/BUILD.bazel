@@ -55,6 +55,7 @@ proto_library(
         "test_case.proto",
         "tool.proto",
         "tool_call.proto",
+        "trace.proto",
         "transition_route_group.proto",
         "validation_message.proto",
         "version.proto",
@@ -430,6 +431,7 @@ load(
 
 csharp_proto_library(
     name = "cx_csharp_proto",
+    extra_opts = [],
     deps = [":cx_proto"],
 )
 
